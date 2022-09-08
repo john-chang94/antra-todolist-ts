@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TTodo } from "../App";
+import { TTodo } from "../types";
 
 type TodoProps = {
   todo: TTodo;

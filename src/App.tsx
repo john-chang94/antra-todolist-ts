@@ -9,12 +9,7 @@ import {
   patchTodo,
   updateTodo,
 } from "./services";
-
-export type TTodo = {
-  title: string;
-  isCompleted: boolean;
-  id: number;
-};
+import { TTodo } from "./types"
 
 // export interface ITodo {
 //   todos: TTodo[];
